@@ -11,24 +11,24 @@
 
     <section>
         <form name="loginForm" action="/submit-your-form-endpoint" method="POST">
-            <h1>Inicio</h1>
+            <h1>Iniciar Sesion</h1>
             <div class="inputbox">
-                <ion-icon name="mail-outline" */ion-icon>
-                    <input name="email" id="email" type="email" required>
+                <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" id="email" type="email" required>
                     <label for="">Usuario</label>
             </div>
             <div class="inputbox">
-                <ion-icon name="lock-closed-outline" */ion-icon>
-                    <input name="password" id="password" type="password" required>
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" id="password" type="password" required>
                     <label for="">Contraseña</label>
             </div>
             <div class="forget">
-                <label for="" *input type="checkbox">Recordar</label>
+                <label for=""><input type="checkbox">Recordar</label>
                 <a href="#">Olvidé la Contraseña</a>
             </div>
             <button type="submit">Iniciar</button>
             <div class="register">
-                <p>No tengo una cuenta <a href="#">Registrate</a></р>
+                <p>No tengo una cuenta <button type="submit" >Registrarme</button></р>
             </div>
         </form>
     </section>
